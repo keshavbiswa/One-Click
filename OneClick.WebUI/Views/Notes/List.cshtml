@@ -1,0 +1,35 @@
+﻿@model OneClick.WebUI.Models.NotesListViewModel
+
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_NotesLayout.cshtml";
+}
+
+
+    <br/>
+    <br/>
+    
+    <div class="row">
+        <div class="col-md-3">
+            <p class="lead"><strong style="padding-left:80px">OneClickNotes</strong></p>
+            <div class="list-group" style="background-color:lightblue; animation-name:inherit">
+                @Html.Action("Menu","NotesNav")
+            </div>
+         </div>
+        
+            
+         <div class="col-md-6">
+            @foreach (var e in Model.Notes)
+            {
+                @Html.Partial("NoteSummary", e)
+            }
+        </div>
+    </div>
+
+
+<div class="text-center">
+    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x }))
+</div>
+
+
+

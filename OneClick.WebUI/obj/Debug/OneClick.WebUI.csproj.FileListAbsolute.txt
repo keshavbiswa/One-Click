@@ -1,0 +1,129 @@
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\OneClick.WebUI.dll.config
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\OneClick.WebUI.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\OneClick.WebUI.pdb
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Castle.Core.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\EntityFramework.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\EntityFramework.SqlServer.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Moq.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Ninject.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Helpers.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Mvc.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Razor.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Webpages.Deployment.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Webpages.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Webpages.Razor.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Castle.Core.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\EntityFramework.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\EntityFramework.SqlServer.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Moq.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Ninject.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Razor.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Webpages.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Webpages.Deployment.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Webpages.Razor.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Helpers.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Mvc.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\obj\Debug\OneClick.WebUI.csprojResolveAssemblyReference.cache
+F:\Study Materials\Project\OneClick\OneClick.WebUI\obj\Debug\OneClick.WebUI.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\obj\Debug\OneClick.WebUI.pdb
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Microsoft.Web.Infrastructure.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Ninject.Web.Common.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Ninject.Web.Mvc.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\OneClick.Domain.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\WebActivatorEx.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\OneClick.Domain.pdb
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Ninject.Web.Common.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Ninject.Web.Mvc.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Antlr3.Runtime.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Newtonsoft.Json.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Optimization.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\WebGrease.dll
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Antlr3.Runtime.pdb
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\Newtonsoft.Json.xml
+F:\Study Materials\Project\OneClick\OneClick.WebUI\bin\System.Web.Optimization.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\OneClick.WebUI.dll.config
+E:\Keshav\OneClick\OneClick.WebUI\bin\OneClick.WebUI.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\OneClick.WebUI.pdb
+E:\Keshav\OneClick\OneClick.WebUI\bin\Antlr3.Runtime.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\Castle.Core.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\EntityFramework.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\EntityFramework.SqlServer.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\Microsoft.Web.Infrastructure.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\Moq.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\Newtonsoft.Json.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\Ninject.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\Ninject.Web.Common.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\Ninject.Web.Mvc.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\OneClick.Domain.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.Helpers.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.Mvc.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.Optimization.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.Razor.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.WebPages.Deployment.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.WebPages.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.WebPages.Razor.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\WebActivatorEx.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\WebGrease.dll
+E:\Keshav\OneClick\OneClick.WebUI\bin\OneClick.Domain.pdb
+E:\Keshav\OneClick\OneClick.WebUI\bin\Antlr3.Runtime.pdb
+E:\Keshav\OneClick\OneClick.WebUI\bin\Castle.Core.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\EntityFramework.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\EntityFramework.SqlServer.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\Moq.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\Newtonsoft.Json.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\Ninject.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\Ninject.Web.Common.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\Ninject.Web.Mvc.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.Helpers.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.Mvc.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.Optimization.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.Razor.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.WebPages.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.WebPages.Deployment.xml
+E:\Keshav\OneClick\OneClick.WebUI\bin\System.Web.WebPages.Razor.xml
+E:\Keshav\OneClick\OneClick.WebUI\obj\Debug\OneClick.WebUI.csprojResolveAssemblyReference.cache
+E:\Keshav\OneClick\OneClick.WebUI\obj\Debug\OneClick.WebUI.dll
+E:\Keshav\OneClick\OneClick.WebUI\obj\Debug\OneClick.WebUI.pdb
+D:\KESHAV\OneClick\OneClick.WebUI\bin\OneClick.WebUI.dll.config
+D:\KESHAV\OneClick\OneClick.WebUI\bin\OneClick.WebUI.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\OneClick.WebUI.pdb
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Antlr3.Runtime.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Castle.Core.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\EntityFramework.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\EntityFramework.SqlServer.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Moq.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Newtonsoft.Json.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Ninject.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Ninject.Web.Common.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Ninject.Web.Mvc.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\OneClick.Domain.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.Helpers.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.Mvc.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.Optimization.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.Razor.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.WebPages.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.WebPages.Razor.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\WebActivatorEx.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\WebGrease.dll
+D:\KESHAV\OneClick\OneClick.WebUI\bin\OneClick.Domain.pdb
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Antlr3.Runtime.pdb
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Castle.Core.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\EntityFramework.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\EntityFramework.SqlServer.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Moq.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Newtonsoft.Json.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Ninject.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Ninject.Web.Common.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\Ninject.Web.Mvc.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.Helpers.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.Mvc.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.Optimization.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.Razor.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.WebPages.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\KESHAV\OneClick\OneClick.WebUI\bin\System.Web.WebPages.Razor.xml
+D:\KESHAV\OneClick\OneClick.WebUI\obj\Debug\OneClick.WebUI.csprojResolveAssemblyReference.cache
+D:\KESHAV\OneClick\OneClick.WebUI\obj\Debug\OneClick.WebUI.dll
+D:\KESHAV\OneClick\OneClick.WebUI\obj\Debug\OneClick.WebUI.pdb

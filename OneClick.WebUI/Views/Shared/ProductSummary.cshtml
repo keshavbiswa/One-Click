@@ -1,0 +1,54 @@
+﻿@model OneClick.Domain._Entities.Product
+    <div class="well">
+        <div class="thumbnail" >
+            @if(Model.Category=="Clothes")
+            {
+                <img src="~/img/product/onlinestore.jpg"/>   
+            }
+            
+            @if (Model.Category == "Shoes")
+            {
+                <img src="~/img/product/adidas.jpg" />
+            }
+            @if (Model.Category == "Tshirt")
+            {
+                <img src="~/img/product/product/index1.jpg" />
+            }
+            @if (Model.Category == "Perfume")
+            {
+                <img src="~/img/product/signature.jpg" />
+            }
+            @if (Model.Category == "Phones")
+            {
+                <img src="~/img/product/xperia.jpg" />
+            }
+            @if (Model.Category == "Tablet")
+            {
+                <img src="~/img/product/samsung.jpg" />
+            }
+            @if (Model.Category == "Mouse")
+            {
+                 <img src="~/img/product/mou.jpg" />
+            }
+            
+                      
+        </div>
+        <h3>
+            <strong>@Model.Name</strong>
+            <span class="pull-right" style="color:blue">@Model.Price.ToString("c") </span>
+        </h3>
+        
+        @using (Html.BeginForm("AddToCart", "Cart"))
+        {
+            <div class="pull-right">
+                @Html.HiddenFor(x => x.ProductId)
+                @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+                <input type="submit" class="btn btn-success" value="Add to cart" />
+            </div>
+        }
+        <span class="lead">@Model.Description</span>
+    </div>
+
+
+
+

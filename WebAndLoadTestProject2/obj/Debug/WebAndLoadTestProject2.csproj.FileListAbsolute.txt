@@ -1,0 +1,8 @@
+F:\Study Materials\Project\OneClick\WebAndLoadTestProject2\bin\Debug\WebAndLoadTestProject2.dll
+F:\Study Materials\Project\OneClick\WebAndLoadTestProject2\bin\Debug\WebAndLoadTestProject2.pdb
+F:\Study Materials\Project\OneClick\WebAndLoadTestProject2\obj\Debug\WebAndLoadTestProject2.csprojResolveAssemblyReference.cache
+F:\Study Materials\Project\OneClick\WebAndLoadTestProject2\obj\Debug\WebAndLoadTestProject2.dll
+F:\Study Materials\Project\OneClick\WebAndLoadTestProject2\obj\Debug\WebAndLoadTestProject2.pdb
+F:\Study Materials\Project\OneClick\WebAndLoadTestProject2\bin\Debug\Index.webtest
+F:\Study Materials\Project\OneClick\WebAndLoadTestProject2\bin\Debug\OneClick.webtest
+F:\Study Materials\Project\OneClick\WebAndLoadTestProject2\bin\Debug\LoadTest1.loadtest

@@ -1,0 +1,26 @@
+﻿@model OneClick.WebUI.Models.ProductsListViewModel
+
+@{
+    ViewBag.Title = "Products";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<br/>
+<br/>
+<div class="row">
+    <div class="col-md-3">
+        <p class="lead"><strong style="padding-left:80px">OneClickStore</strong></p>
+        <div class="list-group" style="background-color:lightblue; animation-name:inherit">
+            @Html.Action("ProductNavMenu", "ProductNav")
+        </div>
+    </div>
+    <div class="col-md-8">
+        @foreach (var e in Model.Products)
+        {
+            @Html.Partial("ProductSummary", e)
+        }
+    
+        <div class="text-center">
+            @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x }))
+        </div>
+    </div>
+   </div>

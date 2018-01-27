@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="a50fe138-b534-4b0b-b37b-10d16bc9712b" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.8bedfb4c-79c5-4d5b-b47d-1a369786d87f.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="c76da179-8d68-4930-a90f-befebf823c13" Version="1.1" Url="http://localhost:58561/Product/List" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="efe1dd9f-4744-4a90-a415-200ae97be1c6" Version="1.1" Url="http://localhost:58561/_vti_bin/owssvr.dll" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="UL" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ACT" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="BUILD" Value="4518" RecordedValue="4518" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="STRMVER" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="CAPREQ" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="8f643523-0b99-47b7-8451-89936d819e5a" Version="1.1" Url="http://localhost:58561/MSOffice/cltreq.asp" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="UL" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ACT" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="BUILD" Value="4518" RecordedValue="4518" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="STRMVER" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="CAPREQ" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam8.category" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?category=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam9.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="POST" Guid="ca86ee43-88d0-495c-894e-1b476d5c6d51" Version="1.1" Url="http://localhost:14558/ed032a79b49d4a519909741fffc1ee56/arterySignalR/negotiate" ThinkTime="8" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:58561/Product/List" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A58561%2FProduct%2FList" RecordedValue="http%3A%2F%2Flocalhost%3A58561%2FProduct%2FList" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="InternetExplorer" RecordedValue="InternetExplorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1481910846466" RecordedValue="1481910846466" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="52399c30-8d1c-4f47-bcf6-8fe3a359d025" Version="1.1" Url="http://localhost:58561/Event/List" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost:58561/UserAccount/Login?ReturnUrl=%2fEvent%2fList%3fcategory%3dSports%26page%3d1&amp;category=Sports&amp;page=1" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:58561/Product/List" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5.ReturnUrl" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?ReturnUrl=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam6.category" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;category=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam7.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam132.ReturnUrl" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?ReturnUrl=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="category" Value="Sports" RecordedValue="Sports" CorrelationBinding="{{QueryStringParam8.category}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam9.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e5170293-4b06-47f0-b7ea-d0e15e9dca7d" Version="1.1" Url="http://localhost:14558/ed032a79b49d4a519909741fffc1ee56/arterySignalR/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAAC4YFxPkSLQhARINnvnyR0ZX28jeTo5FGz5h9OjVcCT%2FwAAAAAOgAAAAAIAACAAAADS1b3OiT0Bmik%2FzR29XQQ%2BFx%2FUbdJMgW2Jo55ngNG6LjAAAACEqj4MUUek%2BclwoVWU2G8gN%2BX3Szy6Cu8APw9spYu5QkprxzryNCMWBHdPKoRZFoFAAAAAfYozdV5zG8lwIHsnxHFvxGEJzn3z9qwo8xA4nEwBiR8fq4VBe5HK6UyWZ4cbgkmIp5Dwml2EwwDf0qVhonRmlA%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAAC4YFxPkSLQhARINnvnyR0ZX28jeTo5FGz5h9OjVcCT%2FwAAAAAOgAAAAAIAACAAAADS1b3OiT0Bmik%2FzR29XQQ%2BFx%2FUbdJMgW2Jo55ngNG6LjAAAACEqj4MUUek%2BclwoVWU2G8gN%2BX3Szy6Cu8APw9spYu5QkprxzryNCMWBHdPKoRZFoFAAAAAfYozdV5zG8lwIHsnxHFvxGEJzn3z9qwo8xA4nEwBiR8fq4VBe5HK6UyWZ4cbgkmIp5Dwml2EwwDf0qVhonRmlA%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A58561%2FProduct%2FList" RecordedValue="http%3A%2F%2Flocalhost%3A58561%2FProduct%2FList" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="InternetExplorer" RecordedValue="InternetExplorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="329b9c72-e5d6-4360-884e-cecaf8ce32a3" Version="1.1" Url="http://localhost:58561/__browserLink/requestData/1c2dd68ae95045529c9ed7ce0bdb9b20" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:58561/Product/List" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="2afc65b9-2158-4247-98e2-d12ff825a8dd" Version="1.1" Url="http://localhost:14558/ed032a79b49d4a519909741fffc1ee56/arterySignalR/abort" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:58561/Product/List" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAAC4YFxPkSLQhARINnvnyR0ZX28jeTo5FGz5h9OjVcCT%2FwAAAAAOgAAAAAIAACAAAADS1b3OiT0Bmik%2FzR29XQQ%2BFx%2FUbdJMgW2Jo55ngNG6LjAAAACEqj4MUUek%2BclwoVWU2G8gN%2BX3Szy6Cu8APw9spYu5QkprxzryNCMWBHdPKoRZFoFAAAAAfYozdV5zG8lwIHsnxHFvxGEJzn3z9qwo8xA4nEwBiR8fq4VBe5HK6UyWZ4cbgkmIp5Dwml2EwwDf0qVhonRmlA%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAAC4YFxPkSLQhARINnvnyR0ZX28jeTo5FGz5h9OjVcCT%2FwAAAAAOgAAAAAIAACAAAADS1b3OiT0Bmik%2FzR29XQQ%2BFx%2FUbdJMgW2Jo55ngNG6LjAAAACEqj4MUUek%2BclwoVWU2G8gN%2BX3Szy6Cu8APw9spYu5QkprxzryNCMWBHdPKoRZFoFAAAAAfYozdV5zG8lwIHsnxHFvxGEJzn3z9qwo8xA4nEwBiR8fq4VBe5HK6UyWZ4cbgkmIp5Dwml2EwwDf0qVhonRmlA%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A58561%2FProduct%2FList" RecordedValue="http%3A%2F%2Flocalhost%3A58561%2FProduct%2FList" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="InternetExplorer" RecordedValue="InternetExplorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="feee2e09-1511-4fbe-97fd-8d0f14505ca4" Version="1.1" Url="http://localhost:14558/ed032a79b49d4a519909741fffc1ee56/arterySignalR/negotiate" ThinkTime="7" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:58561/UserAccount/Login?ReturnUrl=%2fEvent%2fList%3fcategory%3dSports%26page%3d1&amp;category=Sports&amp;page=1" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A58561%2FUserAccount%2FLogin%3FReturnUrl%3D%252fEvent%252fList%253fcategory%253dSports%2526page%253d1%26category%3DSports%26page%3D1" RecordedValue="http%3A%2F%2Flocalhost%3A58561%2FUserAccount%2FLogin%3FReturnUrl%3D%252fEvent%252fList%253fcategory%253dSports%2526page%253d1%26category%3DSports%26page%3D1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="InternetExplorer" RecordedValue="InternetExplorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1481910855728" RecordedValue="1481910855728" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="2eb39355-e2ea-4959-86e6-b9a611559adb" Version="1.1" Url="http://localhost:58561/UserAccount/Login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost:58561/Event/List?category=Sports&amp;page=1" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:58561/UserAccount/Login?ReturnUrl=%2fEvent%2fList%3fcategory%3dSports%26page%3d1&amp;category=Sports&amp;page=1" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2.category" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?category=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?page=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ReturnUrl" Value="%2fEvent%2fList%3fcategory%3dSports%26page%3d1" RecordedValue="%2fEvent%2fList%3fcategory%3dSports%26page%3d1" CorrelationBinding="{{QueryStringParam5.ReturnUrl}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="category" Value="Sports" RecordedValue="Sports" CorrelationBinding="{{QueryStringParam6.category}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam7.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="Username" Value="Keshav" RecordedValue="Keshav" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Password" Value="123456" RecordedValue="123456" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="ac5352f2-baec-4f58-a8d4-9a351658bc72" Version="1.1" Url="http://localhost:14558/ed032a79b49d4a519909741fffc1ee56/arterySignalR/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAAA1GyJtGrZPYqyqcfry%2BfPi1Gw8yCyMcFGboW1QXaS9RQAAAAAOgAAAAAIAACAAAAD4NjTDsO4Vlm6pQPuEcNWiKSH2%2By%2FsyyUYnHYa667RljAAAACbiG%2BuUQ9McGBe%2FM%2FmU%2BKptJPkUK7IWXLWULv%2FXGQRqsF3wv1lvVX5%2Frh97%2F9SrABAAAAAruG51NDFzYcCEvMb9uAg11yR%2BKHDYUD%2FaOpOJJUq4Rpm5zZx4a0FbZ08Otb6jQ4KwV5qkU%2FYseGfEXaLaf86Cg%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAAA1GyJtGrZPYqyqcfry%2BfPi1Gw8yCyMcFGboW1QXaS9RQAAAAAOgAAAAAIAACAAAAD4NjTDsO4Vlm6pQPuEcNWiKSH2%2By%2FsyyUYnHYa667RljAAAACbiG%2BuUQ9McGBe%2FM%2FmU%2BKptJPkUK7IWXLWULv%2FXGQRqsF3wv1lvVX5%2Frh97%2F9SrABAAAAAruG51NDFzYcCEvMb9uAg11yR%2BKHDYUD%2FaOpOJJUq4Rpm5zZx4a0FbZ08Otb6jQ4KwV5qkU%2FYseGfEXaLaf86Cg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A58561%2FUserAccount%2FLogin%3FReturnUrl%3D%252fEvent%252fList%253fcategory%253dSports%2526page%253d1%26category%3DSports%26page%3D1" RecordedValue="http%3A%2F%2Flocalhost%3A58561%2FUserAccount%2FLogin%3FReturnUrl%3D%252fEvent%252fList%253fcategory%253dSports%2526page%253d1%26category%3DSports%26page%3D1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="InternetExplorer" RecordedValue="InternetExplorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="7" RecordedValue="7" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c8dc8916-643f-4913-8cd9-3b38f46a5371" Version="1.1" Url="http://localhost:58561/__browserLink/requestData/01dc47ba065a4d569a0206e54720b074" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:58561/UserAccount/Login?ReturnUrl=%2fEvent%2fList%3fcategory%3dSports%26page%3d1&amp;category=Sports&amp;page=1" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="a170a04f-7500-4433-9018-11a4d5cdff3b" Version="1.1" Url="http://localhost:14558/ed032a79b49d4a519909741fffc1ee56/arterySignalR/abort" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:58561/UserAccount/Login?ReturnUrl=%2fEvent%2fList%3fcategory%3dSports%26page%3d1&amp;category=Sports&amp;page=1" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAAA1GyJtGrZPYqyqcfry%2BfPi1Gw8yCyMcFGboW1QXaS9RQAAAAAOgAAAAAIAACAAAAD4NjTDsO4Vlm6pQPuEcNWiKSH2%2By%2FsyyUYnHYa667RljAAAACbiG%2BuUQ9McGBe%2FM%2FmU%2BKptJPkUK7IWXLWULv%2FXGQRqsF3wv1lvVX5%2Frh97%2F9SrABAAAAAruG51NDFzYcCEvMb9uAg11yR%2BKHDYUD%2FaOpOJJUq4Rpm5zZx4a0FbZ08Otb6jQ4KwV5qkU%2FYseGfEXaLaf86Cg%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAAA1GyJtGrZPYqyqcfry%2BfPi1Gw8yCyMcFGboW1QXaS9RQAAAAAOgAAAAAIAACAAAAD4NjTDsO4Vlm6pQPuEcNWiKSH2%2By%2FsyyUYnHYa667RljAAAACbiG%2BuUQ9McGBe%2FM%2FmU%2BKptJPkUK7IWXLWULv%2FXGQRqsF3wv1lvVX5%2Frh97%2F9SrABAAAAAruG51NDFzYcCEvMb9uAg11yR%2BKHDYUD%2FaOpOJJUq4Rpm5zZx4a0FbZ08Otb6jQ4KwV5qkU%2FYseGfEXaLaf86Cg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A58561%2FUserAccount%2FLogin%3FReturnUrl%3D%252fEvent%252fList%253fcategory%253dSports%2526page%253d1%26category%3DSports%26page%3D1" RecordedValue="http%3A%2F%2Flocalhost%3A58561%2FUserAccount%2FLogin%3FReturnUrl%3D%252fEvent%252fList%253fcategory%253dSports%2526page%253d1%26category%3DSports%26page%3D1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="InternetExplorer" RecordedValue="InternetExplorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="2e61e2ad-fcd3-45af-9399-5d48a1827c34" Version="1.1" Url="http://localhost:14558/ed032a79b49d4a519909741fffc1ee56/arterySignalR/negotiate" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:58561/Event/List?category=Sports&amp;page=1" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A58561%2FEvent%2FList%3Fcategory%3DSports%26page%3D1" RecordedValue="http%3A%2F%2Flocalhost%3A58561%2FEvent%2FList%3Fcategory%3DSports%26page%3D1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="InternetExplorer" RecordedValue="InternetExplorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1481910864685" RecordedValue="1481910864685" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="679a6b80-d34d-4015-b710-43cebe2870e5" Version="1.1" Url="http://localhost:58561/UserAccount/Login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:58561/Product/List" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ReturnUrl" Value="%2fEvent%2fList%3fcategory%3dSports%26page%3d1" RecordedValue="%2fEvent%2fList%3fcategory%3dSports%26page%3d1" CorrelationBinding="{{QueryStringParam132.ReturnUrl}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="category" Value="Sports" RecordedValue="Sports" CorrelationBinding="{{QueryStringParam2.category}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="{{QueryStringParam3.page}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="cd36f305-ba23-4487-ad41-2e1057505573" Version="1.1" Url="http://localhost:14558/ed032a79b49d4a519909741fffc1ee56/arterySignalR/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAACnCcLIkgvAU%2BFN5c%2BKHvMVL5cPKgz0ywHNoXo1k6gGhwAAAAAOgAAAAAIAACAAAADnTfwucY29%2Fj0LhMWNXwMnVBFVfSyIJLbaKA6qV5GPVjAAAADdYPtRP%2BEXD3BFQ5yt%2BQLZflmbsbCO%2F%2B8yCTSVTUf%2B1TgCHocSJTaozxB0WmPI34RAAAAATYQ%2FDLja0ZIT3iHzCJmy%2FP1qQpFBP45CvYtQwpRZCwLrSj4VPWKFhUyp4RxwKe4GfJO8HYwV8fzXdPTsZMaVlg%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAACnCcLIkgvAU%2BFN5c%2BKHvMVL5cPKgz0ywHNoXo1k6gGhwAAAAAOgAAAAAIAACAAAADnTfwucY29%2Fj0LhMWNXwMnVBFVfSyIJLbaKA6qV5GPVjAAAADdYPtRP%2BEXD3BFQ5yt%2BQLZflmbsbCO%2F%2B8yCTSVTUf%2B1TgCHocSJTaozxB0WmPI34RAAAAATYQ%2FDLja0ZIT3iHzCJmy%2FP1qQpFBP45CvYtQwpRZCwLrSj4VPWKFhUyp4RxwKe4GfJO8HYwV8fzXdPTsZMaVlg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A58561%2FEvent%2FList%3Fcategory%3DSports%26page%3D1" RecordedValue="http%3A%2F%2Flocalhost%3A58561%2FEvent%2FList%3Fcategory%3DSports%26page%3D1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="InternetExplorer" RecordedValue="InternetExplorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="933fedbc-5305-4a5b-b3fa-53d352cca787" Version="1.1" Url="http://localhost:58561/__browserLink/requestData/8295e3a88aa04e6f8c1c36cf13f9a97c" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:58561/Event/List?category=Sports&amp;page=1" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="54e7a1ce-219d-4435-9c58-c760f26ac41c" Version="1.1" Url="http://localhost:14558/ed032a79b49d4a519909741fffc1ee56/arterySignalR/abort" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:58561/Event/List?category=Sports&amp;page=1" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAACnCcLIkgvAU%2BFN5c%2BKHvMVL5cPKgz0ywHNoXo1k6gGhwAAAAAOgAAAAAIAACAAAADnTfwucY29%2Fj0LhMWNXwMnVBFVfSyIJLbaKA6qV5GPVjAAAADdYPtRP%2BEXD3BFQ5yt%2BQLZflmbsbCO%2F%2B8yCTSVTUf%2B1TgCHocSJTaozxB0WmPI34RAAAAATYQ%2FDLja0ZIT3iHzCJmy%2FP1qQpFBP45CvYtQwpRZCwLrSj4VPWKFhUyp4RxwKe4GfJO8HYwV8fzXdPTsZMaVlg%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAPgIKg1CtakyqGlhc9c6phQAAAAACAAAAAAAQZgAAAAEAACAAAACnCcLIkgvAU%2BFN5c%2BKHvMVL5cPKgz0ywHNoXo1k6gGhwAAAAAOgAAAAAIAACAAAADnTfwucY29%2Fj0LhMWNXwMnVBFVfSyIJLbaKA6qV5GPVjAAAADdYPtRP%2BEXD3BFQ5yt%2BQLZflmbsbCO%2F%2B8yCTSVTUf%2B1TgCHocSJTaozxB0WmPI34RAAAAATYQ%2FDLja0ZIT3iHzCJmy%2FP1qQpFBP45CvYtQwpRZCwLrSj4VPWKFhUyp4RxwKe4GfJO8HYwV8fzXdPTsZMaVlg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A58561%2FEvent%2FList%3Fcategory%3DSports%26page%3D1" RecordedValue="http%3A%2F%2Flocalhost%3A58561%2FEvent%2FList%3Fcategory%3DSports%26page%3D1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="InternetExplorer" RecordedValue="InternetExplorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="909393a4-50b9-4ec0-86c0-aeb8b4f6a872" Version="1.1" Url="http://localhost:14558/ed032a79b49d4a519909741fffc1ee56/arterySignalR/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:58561/UserAccount/Login?ReturnUrl=%2fEvent%2fList%3fcategory%3dSports%26page%3d1&amp;category=Sports&amp;page=1" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A58561%2FUserAccount%2FLogin%3FReturnUrl%3D%252fEvent%252fList%253fcategory%253dSports%2526page%253d1%26category%3DSports%26page%3D1" RecordedValue="http%3A%2F%2Flocalhost%3A58561%2FUserAccount%2FLogin%3FReturnUrl%3D%252fEvent%252fList%253fcategory%253dSports%2526page%253d1%26category%3DSports%26page%3D1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="InternetExplorer" RecordedValue="InternetExplorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1481910871363" RecordedValue="1481910871363" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="8fb650ee-eaa9-4e5b-9b7a-725c76d72db4" Version="1.1" Url="http://localhost:58561/__browserLink/requestData/01dc47ba065a4d569a0206e54720b074" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:58561/UserAccount/Login?ReturnUrl=%2fEvent%2fList%3fcategory%3dSports%26page%3d1&amp;category=Sports&amp;page=1" />
+      </Headers>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

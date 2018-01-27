@@ -1,0 +1,54 @@
+﻿@model OneClick.WebUI.Models.EventsListViewModel
+
+@{
+    ViewBag.Title = "Events";
+    Layout = "~/Views/Shared/_EventLayout.cshtml";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                OneClickEvents
+                <small>All the events and notifications of your city</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li class="active">Events</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8">
+            @foreach (var e in Model.Events)
+            {
+                @Html.Partial("EventSummary", e)
+            }
+            <div class="pager">
+                @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x }))
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <!-- /well -->
+            <div class="well">
+                <h4>Popular Event Categories</h4>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul class="list-unstyled">
+                            <li>
+                                @Html.Action("Menu", "Nav")
+                            </li> >
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <!-- /well -->
+            <div class="well">
+                <h4>Quick Reminder</h4>
+                <p>This events and notifications are the events held on the places in Guwahati City only !!</p>
+            </div>
+            <!-- /well -->
+        </div>
+    </div>
+</div>

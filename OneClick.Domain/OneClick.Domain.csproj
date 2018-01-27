@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D136005E-6AB3-4A8E-ACEC-E0AD9958FFE1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OneClick.Domain</RootNamespace>
+    <AssemblyName>OneClick.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\IAuthentication.cs" />
+    <Compile Include="Abstract\IEventRepository.cs" />
+    <Compile Include="Abstract\INoteRepository.cs" />
+    <Compile Include="Abstract\IOrderProcessor.cs" />
+    <Compile Include="Abstract\IProductRepository.cs" />
+    <Compile Include="Abstract\IUserAuthentication.cs" />
+    <Compile Include="Abstract\IUserRepository.cs" />
+    <Compile Include="Concrete\EFDbContext.cs" />
+    <Compile Include="Concrete\EFEventRepository.cs" />
+    <Compile Include="Concrete\EFNoteRepository.cs" />
+    <Compile Include="Concrete\EFProductRepository.cs" />
+    <Compile Include="Concrete\EFUserRepository.cs" />
+    <Compile Include="Concrete\EmailOrderProcessor.cs" />
+    <Compile Include="Concrete\EmailSettings.cs" />
+    <Compile Include="Concrete\FormsAuthenticationProvider.cs" />
+    <Compile Include="Concrete\UserFormsAuthenticationProvider.cs" />
+    <Compile Include="Migrations\201611251656150_initial.cs" />
+    <Compile Include="Migrations\201611251656150_initial.Designer.cs">
+      <DependentUpon>201611251656150_initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611251750161_addUserTable.cs" />
+    <Compile Include="Migrations\201611251750161_addUserTable.Designer.cs">
+      <DependentUpon>201611251750161_addUserTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611251927071_addUserTable1.cs" />
+    <Compile Include="Migrations\201611251927071_addUserTable1.Designer.cs">
+      <DependentUpon>201611251927071_addUserTable1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611261524473_addNoteTable.cs" />
+    <Compile Include="Migrations\201611261524473_addNoteTable.Designer.cs">
+      <DependentUpon>201611261524473_addNoteTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611261526485_addNoteTable1.cs" />
+    <Compile Include="Migrations\201611261526485_addNoteTable1.Designer.cs">
+      <DependentUpon>201611261526485_addNoteTable1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611262143324_addNoteTable2.cs" />
+    <Compile Include="Migrations\201611262143324_addNoteTable2.Designer.cs">
+      <DependentUpon>201611262143324_addNoteTable2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611271329079_addNoteTable3.cs" />
+    <Compile Include="Migrations\201611271329079_addNoteTable3.Designer.cs">
+      <DependentUpon>201611271329079_addNoteTable3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611290559126_addNoteTable4.cs" />
+    <Compile Include="Migrations\201611290559126_addNoteTable4.Designer.cs">
+      <DependentUpon>201611290559126_addNoteTable4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611290606479_addNoteTable5.cs" />
+    <Compile Include="Migrations\201611290606479_addNoteTable5.Designer.cs">
+      <DependentUpon>201611290606479_addNoteTable5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611291836524_addNoteTable6.cs" />
+    <Compile Include="Migrations\201611291836524_addNoteTable6.Designer.cs">
+      <DependentUpon>201611291836524_addNoteTable6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611291838035_addNoteTable7.cs" />
+    <Compile Include="Migrations\201611291838035_addNoteTable7.Designer.cs">
+      <DependentUpon>201611291838035_addNoteTable7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611291940311_addFileTable.cs" />
+    <Compile Include="Migrations\201611291940311_addFileTable.Designer.cs">
+      <DependentUpon>201611291940311_addFileTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612011124048_dropFileTable.cs" />
+    <Compile Include="Migrations\201612011124048_dropFileTable.Designer.cs">
+      <DependentUpon>201612011124048_dropFileTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612011236369_addFileTable1.cs" />
+    <Compile Include="Migrations\201612011236369_addFileTable1.Designer.cs">
+      <DependentUpon>201612011236369_addFileTable1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612011247481_addFileTable2.cs" />
+    <Compile Include="Migrations\201612011247481_addFileTable2.Designer.cs">
+      <DependentUpon>201612011247481_addFileTable2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612011305529_addFileTable3.cs" />
+    <Compile Include="Migrations\201612011305529_addFileTable3.Designer.cs">
+      <DependentUpon>201612011305529_addFileTable3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612011314398_addFileTable4.cs" />
+    <Compile Include="Migrations\201612011314398_addFileTable4.Designer.cs">
+      <DependentUpon>201612011314398_addFileTable4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612011609092_modifyDateTime.cs" />
+    <Compile Include="Migrations\201612011609092_modifyDateTime.Designer.cs">
+      <DependentUpon>201612011609092_modifyDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612011620573_modifyUser.cs" />
+    <Compile Include="Migrations\201612011620573_modifyUser.Designer.cs">
+      <DependentUpon>201612011620573_modifyUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612011623170_modifyUser1.cs" />
+    <Compile Include="Migrations\201612011623170_modifyUser1.Designer.cs">
+      <DependentUpon>201612011623170_modifyUser1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612020525364_addDateTime.cs" />
+    <Compile Include="Migrations\201612020525364_addDateTime.Designer.cs">
+      <DependentUpon>201612020525364_addDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612020531127_addDateTime1.cs" />
+    <Compile Include="Migrations\201612020531127_addDateTime1.Designer.cs">
+      <DependentUpon>201612020531127_addDateTime1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="`Entities\Cart.cs" />
+    <Compile Include="`Entities\CartLine.cs" />
+    <Compile Include="`Entities\Event.cs" />
+    <Compile Include="`Entities\Admin.cs" />
+    <Compile Include="`Entities\File.cs" />
+    <Compile Include="`Entities\FileType.cs" />
+    <Compile Include="`Entities\Note.cs" />
+    <Compile Include="`Entities\Product.cs" />
+    <Compile Include="`Entities\ShippingDetails.cs" />
+    <Compile Include="`Entities\User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Scripts\jquery-3.1.1.min.map" />
+    <None Include="Scripts\jquery-3.1.1.slim.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201611251656150_initial.resx">
+      <DependentUpon>201611251656150_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611251750161_addUserTable.resx">
+      <DependentUpon>201611251750161_addUserTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611251927071_addUserTable1.resx">
+      <DependentUpon>201611251927071_addUserTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611261524473_addNoteTable.resx">
+      <DependentUpon>201611261524473_addNoteTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611261526485_addNoteTable1.resx">
+      <DependentUpon>201611261526485_addNoteTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611262143324_addNoteTable2.resx">
+      <DependentUpon>201611262143324_addNoteTable2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611271329079_addNoteTable3.resx">
+      <DependentUpon>201611271329079_addNoteTable3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611290559126_addNoteTable4.resx">
+      <DependentUpon>201611290559126_addNoteTable4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611290606479_addNoteTable5.resx">
+      <DependentUpon>201611290606479_addNoteTable5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611291836524_addNoteTable6.resx">
+      <DependentUpon>201611291836524_addNoteTable6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611291838035_addNoteTable7.resx">
+      <DependentUpon>201611291838035_addNoteTable7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611291940311_addFileTable.resx">
+      <DependentUpon>201611291940311_addFileTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612011124048_dropFileTable.resx">
+      <DependentUpon>201612011124048_dropFileTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612011236369_addFileTable1.resx">
+      <DependentUpon>201612011236369_addFileTable1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612011247481_addFileTable2.resx">
+      <DependentUpon>201612011247481_addFileTable2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612011305529_addFileTable3.resx">
+      <DependentUpon>201612011305529_addFileTable3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612011314398_addFileTable4.resx">
+      <DependentUpon>201612011314398_addFileTable4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612011609092_modifyDateTime.resx">
+      <DependentUpon>201612011609092_modifyDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612011620573_modifyUser.resx">
+      <DependentUpon>201612011620573_modifyUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612011623170_modifyUser1.resx">
+      <DependentUpon>201612011623170_modifyUser1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612020525364_addDateTime.resx">
+      <DependentUpon>201612020525364_addDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612020531127_addDateTime1.resx">
+      <DependentUpon>201612020531127_addDateTime1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

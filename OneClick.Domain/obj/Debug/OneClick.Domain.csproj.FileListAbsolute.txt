@@ -1,0 +1,138 @@
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\OneClick.Domain.dll.config
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\OneClick.Domain.dll
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\OneClick.Domain.pdb
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\EntityFramework.dll
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\EntityFramework.SqlServer.dll
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\EntityFramework.xml
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\EntityFramework.SqlServer.xml
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.csprojResolveAssemblyReference.cache
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.dll
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.pdb
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.Helpers.dll
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.Mvc.dll
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.Razor.dll
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.dll
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.Helpers.xml
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.Mvc.xml
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.Razor.xml
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.xml
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Study Materials\Project\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.initial.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.csproj.GenerateResource.Cache
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addUserTable.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addUserTable1.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable1.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable2.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable3.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable4.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable5.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable6.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable7.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.dropFileTable.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable1.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable2.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable3.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable4.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.modifyDateTime.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.modifyUser.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.modifyUser1.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addDateTime.resources
+F:\Study Materials\Project\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addDateTime1.resources
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\OneClick.Domain.dll.config
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\OneClick.Domain.dll
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\OneClick.Domain.pdb
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\EntityFramework.dll
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.Helpers.dll
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.Mvc.dll
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.Razor.dll
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.dll
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\EntityFramework.xml
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.Helpers.xml
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.Mvc.xml
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.Razor.xml
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.xml
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Keshav\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.csprojResolveAssemblyReference.cache
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.initial.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addUserTable.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addUserTable1.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable1.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable2.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable3.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable4.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable5.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable6.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable7.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.dropFileTable.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable1.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable2.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable3.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable4.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.modifyDateTime.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.modifyUser.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.modifyUser1.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addDateTime.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addDateTime1.resources
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.csproj.GenerateResource.Cache
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.dll
+E:\Keshav\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.pdb
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\OneClick.Domain.dll.config
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\OneClick.Domain.dll
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\OneClick.Domain.pdb
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\EntityFramework.dll
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.Helpers.dll
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.Mvc.dll
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.Razor.dll
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.dll
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\EntityFramework.xml
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.Helpers.xml
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.Mvc.xml
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.Razor.xml
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.xml
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\KESHAV\OneClick\OneClick.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.csprojResolveAssemblyReference.cache
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.initial.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addUserTable.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addUserTable1.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable1.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable2.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable3.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable4.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable5.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable6.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addNoteTable7.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.dropFileTable.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable1.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable2.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable3.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addFileTable4.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.modifyDateTime.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.modifyUser.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.modifyUser1.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addDateTime.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.Migrations.addDateTime1.resources
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.csproj.GenerateResource.Cache
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.dll
+D:\KESHAV\OneClick\OneClick.Domain\obj\Debug\OneClick.Domain.pdb

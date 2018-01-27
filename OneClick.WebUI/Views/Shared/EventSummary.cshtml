@@ -1,0 +1,19 @@
+﻿@model OneClick.Domain._Entities.Event
+
+<h1>
+    @Model.Name
+</h1>
+<p class="lead">
+    in <a href="#">@Model.Category</a>
+</p>
+<hr>
+<p><i class="fa fa-clock-o"></i> To be Held on @Model.Time 2016</p>
+<hr>
+<a href="@Url.Action("Post")">
+    <img class="img-responsive" src="~/img/notes/poster.jpg">
+</a>
+<hr>
+<p>@Model.Description</p>
+<a href="@Url.Action("Post")" class="btn btn-primary">Read More <i class="fa fa-angle-right"></i></a>
+<hr>
+

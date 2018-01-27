@@ -1,0 +1,12 @@
+﻿
+@using (Html.BeginForm("Add", "Archivos",
+                     FormMethod.Post, new { id = "attachment", enctype = "multipart/form-data", encoding = "multipart/form-data" }))
+{
+
+
+    @Html.HiddenFor(x => Model.UserID)
+    <input type="file" name="uploadFile" id="uploadFile" />
+
+    <input type="submit" value="Guardar" />
+
+}

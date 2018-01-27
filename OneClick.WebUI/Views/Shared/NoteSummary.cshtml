@@ -1,0 +1,55 @@
+﻿@model OneClick.Domain._Entities.Note
+<div class="col-sm-6 col-lg-6 col-md-6">
+    <div class="thumbnail" >
+        
+            <span class="pull-right">@Html.ActionLink("Download", "Download", new { id = @Model.FileId, id2 = @Model.NoteId }, htmlAttributes: new { @class = "btn btn-sm btn-success" })</span>
+             <h4>
+                 <strong>@Model.Name</strong>               
+            </h4>
+        <span class="text-center">@Model.Description</span>
+        
+        <div class="caption">
+            Uploaded By @Model.users.UserName
+        </div>
+        <div class="ratings">
+            <p class="pull-right">@Model.Download downloads</p>
+            <p>
+                @if(Model.Download<=2){
+                <span class="glyphicon glyphicon-star"></span>
+                }
+                @if (Model.Download > 2 && Model.Download <= 5)
+                {
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                }
+                @if (Model.Download > 5 && Model.Download <= 9)
+                {
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                }
+                @if (Model.Download > 9 && Model.Download <= 13)
+                {
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                }
+                @if (Model.Download > 13)
+                {
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                }
+                
+            </p>
+        </div>
+        
+        
+    </div>
+</div>
+
+
+
